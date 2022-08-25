@@ -1,0 +1,17 @@
+1. sudo -u postgres psql
+2. \l --> Database List
+3. CREATE DATABASE Ecomm;
+4. DATABASES={
+   'default':{
+      'ENGINE':'django.db.backends.postgresql_psycopg2',
+      'NAME':'Ecomm',
+      'USER': 'postgres',
+      'PASSWORD': 'root',
+      'HOST': '127.0.0.1',
+      'PORT': '5432',
+   }
+}
+5. pip install psycopg2-binary
+6. install pillow for save images in Databases --> pip install pillow
+7. python manage.py makemigrations
+8. python manage.py migrate
