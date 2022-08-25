@@ -1,0 +1,2 @@
+1. python manage.py createsuperuser --> user&pass=admin,email=admin@email.com
+2. 

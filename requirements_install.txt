@@ -1,0 +1,2 @@
+1. pip install -r /home/o/Work/Django/Ecomm/requirements.txt
+2. pip freeze > requirements.txt

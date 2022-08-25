@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  {% block title %}<title>Ecommerce Application</title>{% endblock %}
+</head>
+<body>
+  {% block sidebar %}
+    <div>
+      {% for data in test %}
+        <div>
+          <h1>This is TestDB --> Name: {{data.name}}</h1>
+          <h1>This is TestDB --> Description: {{data.description}}</h1>
+        </div>
+      {% endfor %}
+    </div>
+  {% endblock %}
+
+  {% block content %}
+    <h1>This is Block content</h1>
+  {% endblock %}
+</body>
+</html>
