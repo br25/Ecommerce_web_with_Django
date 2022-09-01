@@ -9,3 +9,4 @@ def index(request):
         "test":test
     }
     return render(request, "index.html", context)
+
